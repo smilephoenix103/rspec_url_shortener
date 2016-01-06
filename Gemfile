@@ -18,6 +18,9 @@ group :development, :test do
   gem 'guard-puma'
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'shoulda-matchers'
+  gem 'factory_girl_rails'
+  gem 'shoulda-callback-matchers'
 end
 
 group :development do
